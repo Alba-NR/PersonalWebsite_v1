@@ -3,45 +3,47 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="styles/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800&display=swap" rel="stylesheet"> <!--Open Sans font family-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,700i,800i&display=swap" rel="stylesheet">
         <title>Alba NR</title>
         
     </head>
     <body>
-        <div>
-        
-            <h1 id="name">Alba Navarro Rosales</h1>
-            <header>
+        <header>
+            <div class="content_container">
+                <div id="header_text">Alba Navarro Rosales</div>
                 <!-- Setting a navigation bar with links -->
-                <nav class="menu">
-                  <ul>
-                    <li><a target="_blank" href="https://github.com/Alba-NR">
-                        <i class="github-icon"><img src="imgs/GitHub-Mark/GitHub-Mark-32px.png"></i>
-                        Github</a></li>
-                    <li><a target="_blank" href="https://www.linkedin.com/in/alba-nr">LinkedIn</a></li>
-                  </ul>
+                <nav>
+                <ul> <!-- Links -->
+                    <li>
+                        <a target="_blank" href="https://github.com/Alba-NR"> Github</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/alba-nr">LinkedIn</a>
+                    </li>
+                </ul>
                 </nav>
-            </header>
+            </div>
+        </header>
 
+        <div class="about-me">
             <!-- Some content-->
             <!-- Section about me... -->
-            <div>
+            <div class="content_container text">
                 <h2>About Me</h2>
-                <p> Hi! I'm Alba, a first year Computer Science student at the University of Cambridge.
+                <p> 
+                    <img id="img-of-me" src="img/me.jpeg" alt="A headshot of me" width="200">
+                    Hi! I'm Alba, a first year Computer Science student at the University of Cambridge.
                     Some of my interests within Computer Science are Graphics, Software Engineering, 
                     App and Web Dev, and also Game Dev. I had to write some text, so this is it :)
+                    
                 </p>
-                <p><a href=#try>
-                    This is supposed to be an internal link.
-                </a></p>
-                <img src="imgs/me.jpeg" alt="A headshot of me" width="200">
+                
             </div>
-            <!-- Section to try internal links... -->
-            <div>
-                <h2 id="try">Trying internal links hehe</h2>
-            </div>
-            
         </div>
         
     </body>
+
+    <footer>
+        <p class="content_container">Alba Navarro Rosales 2020 &copy;</p>
+    </footer>
 </html>
