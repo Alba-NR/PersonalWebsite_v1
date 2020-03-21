@@ -1,0 +1,33 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 98%;
+}
+
+/*
+a {
+text-decoration: none;
+}
+*/
+#container{
+    background-color: #222a35;
+    margin: auto;
+}
+
+.menu{
+    background-color: #FFAB40; /*#FFB74D; #f7a166*/
+}
+
+h2 {
+    color: #595f6d;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
+#name{
+    color: #222a35;
+    font-size: 4em;
+    font-weight: bold;
+    font-style: italic;
+}
