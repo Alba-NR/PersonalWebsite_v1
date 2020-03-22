@@ -93,7 +93,41 @@
     vertical-align: middle;
     height: 100%;
     color: white;
-    background: linear-gradient(120deg, #ffffff, #ffad7d); 
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 173, 125, 0.2);
+    text-decoration-style: solid;
+}
+
+/* img and button */
+.motto{
+    height: 80%;
+    vertical-align: middle;
+    text-align: center;
+}
+.motto_text{
+    padding: 100px 0;
+    font-size: 128px;
+    font-weight: 800;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+/* the round button */
+.motto .round_button{
+    width: auto;
+    padding: 10px 15px;
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    transition-duration: 0.2s;
+}
+/* add drop shadow when hovering on button */
+.motto .round_button:hover {
+    background-color: white;
+    color:#5650de;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
