@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* background -- gradient animation */
+.background{
+    width: 100vw;           
+    height: 100vh;         
+    color: white;
+}
+
+/* top header */
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #ea4d2c, #5650de);
+    box-shadow: 0px -5px 20px 10px #8b8b8b;
+}
+
+/* so that header adapts if window size is smaller */
+@media (max-width: flex){
+    .header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* section of header with content */
+.inner_header{
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;    
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-style: italic;
+    font-weight: 700;
+}
+
+/* header's nav bar */
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+/* items in header's nav bar */
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+}
+
+.navigation a:last-child{
+    padding-right: 0;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    background: linear-gradient(120deg, #ffffff, #ffad7d); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
