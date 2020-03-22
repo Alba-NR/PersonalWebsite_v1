@@ -8,7 +8,7 @@ header{
     background-color: #0a1021;
     /* background-color: #f79131;
     background-image: linear-gradient(-120deg, #FF5722, #FFD54F);*/
-    box-shadow: 0px -5px 20px 10px #585858;
+    box-shadow: 0px -5px 20px 10px #0a1021;
 }
 
 header a:link{
@@ -20,8 +20,9 @@ header a:visited{
 
 
 #header_text{
-    /*color: #222a35;*/
-    background: linear-gradient(to right, #30CFD0 0%, #f45e20 100%);
+    color: #f45e20;
+    /*background: linear-gradient(to right, #30CFD0 0%, #f45e20 100%);*/
+    background: linear-gradient(to right, #33ccff, #ff701f 100%);  /*00BCD4*/
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
     font-size: 2em;
@@ -33,8 +34,13 @@ header a:visited{
 }
 
 body{
-    /*background-color: #eeeeee;*/
-    background-image: linear-gradient(-120deg, #f45e20, #0e3f54);/*be6400*/
+    /*
+    background-color: #0e3f54;
+    background-image: linear-gradient(-120deg, #f45e20, #0e3f54);*/
+    background-color: #0e3f54;
+    background-image: linear-gradient(-120deg, #ff701f, #007ba5);
+    background-repeat: no-repeat; 
+    background-size: cover; 
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -50,7 +56,7 @@ a:link{
 }
 
 h2 {
-    color: #595f6d;
+    color: #0099cc;/*#FFAB40*/ /* 3399cc*/
     font-size: 2em;
     font-weight: bold;
     font-style: italic;
@@ -83,7 +89,11 @@ h2 {
     margin-right: 5%;
 }
 .content_container a:hover { 
-    background-color: rgba(241, 241, 241, 0.5);
+    background-color: rgba(31, 50, 106, 0.5);
+    border-radius: 25px;
+} 
+#about-me .content_container a:hover { 
+    background-color: rgba(248, 170, 58, 0.8);
     border-radius: 25px;
 } 
 
@@ -91,32 +101,35 @@ h2 {
     background-color: #ffffff;
     border-radius: 25px;
     margin: 2%;
-    box-shadow: 0px 10px 20px -5px #838383;
+    box-shadow: 0px 10px 20px -5px #0a1021;
+    align-self: flex-end;
 }
 
 .text{
     padding: 2% 0;
     text-align: justify;
+    align-self: flex-end;
 }
 
 #img-of-me{
     float: right;
     margin: 0 2%;
     border-radius: 50%;
-    box-shadow: 0px 10px 20px 0px #262626;
+    box-shadow: 0px 10px 20px 0px #0a1021;
     z-index: 2;
     max-width: 30%;
+    border: 4px solid white;
 }
 
 footer{
-    background-color: #222a35;
+    background-color: #0a1021;
     font-style: italic;
-    color: #ffffff;
+    color: #3399cc;
     clear: both;
     position: fixed;
     right: 0;
     left: 0;
     bottom: 0;
-    box-shadow: 0px 5px 15px 10px #858585;
+    box-shadow: 0px 5px 15px 10px #0a1021;
     z-index: -1;
 }
