@@ -13,6 +13,7 @@
     background: linear-gradient(180deg, #ea4d2c, #5650de);
     background-size: 400% 400%;                     /* 400% horiz and vert -- for animation */
     animation: gradientChange 12s ease infinite;    /* background gradient animation */
+    overflow: hidden;
 }
 
 /* defining background gradient animation */
@@ -103,18 +104,36 @@
 
 /* img and button */
 .motto{
-    height: 80%;
+    height: 80vh;
     vertical-align: middle;
     text-align: center;
 }
 .motto_text{
-    padding: 100px 0;
     font-size: 128px;
+    font-size: 10vw;
     font-weight: 800;
     color: white;
     vertical-align: middle;
     text-align: center;
+    margin: 8% 0 4% 0;
 }
+
+.motto_text::after{
+    content: "learn";
+    animation: change_word 6s linear infinite alternate;
+}
+@keyframes change_word{
+    0% {
+        content: "learn";
+    }
+    33% {
+        content: "explore";
+    }
+    66% {
+        content: "create";
+    }
+}
+
 /* the round button */
 .motto .round_button{
     width: auto;
