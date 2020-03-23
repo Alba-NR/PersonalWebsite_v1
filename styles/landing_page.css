@@ -96,6 +96,10 @@
     color: white;
 }
 
+.navigation .active{    
+    font-weight: bold; /* to visually'indicate' which page the user is on*/
+}
+
 .navigation a:hover{
     text-decoration: underline;
     text-decoration-color: rgba(255, 173, 125, 0.2);

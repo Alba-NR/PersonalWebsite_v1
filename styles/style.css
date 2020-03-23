@@ -4,6 +4,7 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
 /* background -- gradient animation */
@@ -20,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, #ea4d2c, #5650de);
+    background: white;
     box-shadow: 0px -5px 20px 10px rgba(0,0,0,0.24);
 }
 
@@ -52,6 +53,9 @@
     vertical-align: middle;
     font-style: italic;
     font-weight: 700;
+    background: linear-gradient(135deg, #ea4d2c, #5650de);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 /* header's nav bar */
@@ -76,11 +80,73 @@
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    color: white;
+    color: #5650de;
+}
+
+.navigation .active{
+    font-weight: bold;  /* to visually'indicate' which page the user is on*/
 }
 
 .navigation a:hover{
     text-decoration: underline;
-    text-decoration-color: rgba(255, 173, 125, 0.2);
+    text-decoration-color: rgba(86, 80, 222, 0.2);
     text-decoration-style: solid;
+}
+
+/* defining a long and short separators */
+.long_separator{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.separator{
+    display: block;
+    height: 1px;
+    width: 60px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* main content/text section */
+.content_container{
+    color: #161616;
+    margin: 5% 10% 5% 10%;
+    font-size: 20px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.content_container h2{
+    color: #5650de;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.content_container h3{
+    font-weight: 600;
+}
+
+/* to separate container in ratio 2:1 */
+.content_container .long_box{
+    width: 66%;
+    float: left;
+    padding-right: 5%;
+}
+.content_container .short_box{
+    width: 33%;
+    float: right;
+}
+
+/* my img */
+.content_container .short_box img{
+    width: 80%;
+    margin: 0 0 0 10%;
+    vertical-align: middle;
+    border-radius: 50%;
 }
