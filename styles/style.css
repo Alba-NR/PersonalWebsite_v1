@@ -7,11 +7,11 @@
     box-sizing: border-box;
 }
 
-/* background -- gradient animation */
+/* background */
 .background{
     width: 100vw;           
     height: 100vh;         
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(247, 247, 247);
     overflow: auto;
 }
 
@@ -167,9 +167,30 @@
     transition-duration: 0.2s;
 }
 
+/* the 'resume' round button */
+.content_container .long_box .resume_button{
+    width: auto;
+    padding: 15px 30px;
+    margin: 5% 5% 0 0;
+    display: inline-block;
+    color: #6b46c2;
+    background: none;
+    box-shadow: none;
+    border-radius: 25px;
+    border: 2px solid #6b46c2;
+    transition-duration: 0.2s;
+}
+
+
 /* add drop shadow when hovering on button */
 .content_container .long_box .round_button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* resume button- change to solid colour when hovering */
+.content_container .long_box .resume_button:hover {
+    background-color: #6b46c2;
+    color:white;
 }
 
 /* my img */

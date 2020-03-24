@@ -151,6 +151,6 @@
 /* add drop shadow when hovering on button */
 .motto .round_button:hover {
     background-color: white;
-    color:#5650de;
+    color:#6b46c2; /* 5650de */
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
