@@ -85,6 +85,10 @@
     padding: 0 20px;
 }
 
+.navigation .icon{
+    padding-right: 10px;
+}
+
 .navigation a:last-child{
     padding-right: 0;
 }
@@ -119,7 +123,7 @@
     color: white;
     vertical-align: middle;
     text-align: center;
-    margin: 8% 0 4% 0;
+    margin: 8% 0 6% 0;
 }
 
 .motto_text::after{
