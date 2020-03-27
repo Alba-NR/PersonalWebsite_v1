@@ -11,7 +11,7 @@
 .background{
     width: 100vw;           
     height: 100vh;         
-    background-color: rgb(246,246,246);
+    background-color: rgb(240, 240, 240);
     overflow: auto;
 }
 
@@ -202,24 +202,39 @@
 }
 
 /* to separate container in ratio approx 2:1 */
-.content_container .long_box{
-    width: 64%;
+.content_container .c1, .content_container .c3{
+    width: 60%;
     float: left;
-    padding-right: 5%;
 }
-.content_container .short_box{
+.content_container .c2{
     width: 36%;
     float: right;
 }
+@media(max-width: 858px){
+    .content_container{
+        text-align: left;
+        padding: 5% 8% 5% 8%;
+    }
+    .content_container .c1, .content_container .c3{
+        width: 100%;
+        float: none;
+    }
+    .content_container .c2{
+        position: relative;
+        width: 40%;
+        float: right;
+        margin: 20px;
+    }
+}
 
 /* motto words in italic */
-.content_container .long_box .motto_words{
+.content_container .c3 .motto_words{
     font-style: italic;
     font-weight: bold;
 }
 
 /* the round button */
-.content_container .long_box .round_button{
+.content_container .c3 .round_button{
     width: auto;
     padding: 13px 28px;
     margin: 5% 5% 0 0;
@@ -233,7 +248,7 @@
 }
 
 /* the 'resume' round button */
-.content_container .long_box .resume_button{
+.content_container .c3 .resume_button{
     color: #6847E5;
     background: none;
     box-shadow: none;
@@ -242,21 +257,21 @@
 
 
 /* add drop shadow when hovering on button */
-.content_container .long_box .round_button:hover {
+.content_container .c3 .round_button:hover {
     /* background-color: #ED5565;
     border-color: #ED5565; */
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /* resume button- change to solid colour when hovering */
-.content_container .long_box .resume_button:hover {
+.content_container .c3 .resume_button:hover {
     background-color: #6847E5;
     border-color: #6847E5;
     color:white;
 }
 
 /* my img */
-.content_container .short_box img{
+.content_container .c2 img{
     width: 80%;
     margin: 0 0 0 10%;
     vertical-align: middle;
