@@ -11,7 +11,7 @@
 .background{
     width: 100vw;           
     height: 100vh;         
-    background-color: rgb(240, 240, 240);
+    background: linear-gradient(135deg, #ea4d2c, #6847E5);
     overflow: auto;
 }
 
@@ -27,7 +27,7 @@
     justify-content: space-between;
     align-items: center;
     background: white;
-    box-shadow: 0px -5px 20px 10px rgba(0,0,0,0.15);
+    box-shadow: 0px -5px 20px 10px rgba(0,0,0,0.3);
 }
 
 /* section of header with content */
@@ -50,9 +50,10 @@
     vertical-align: middle;
     font-style: italic;
     font-weight: 700;
+    color: #6847E5;
     background: linear-gradient(135deg, #ea4d2c, #6847E5);
     -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 /* header's nav bar */
@@ -140,10 +141,6 @@
     .navigation li a{
         color: white;
     }
-    .navigation li a:hover{
-        opacity: 0.6;
-        color: white;
-    }
     /* button is clicked */
     #check_box:checked ~ .navigation{
         left: 0%;
@@ -181,7 +178,7 @@
     position: relative;
     top: 80px;
     color: #161616;
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 15px;
     margin: 3% 5% 5% 5%;
     padding: 3% 5% 5% 5%;
@@ -201,7 +198,7 @@
     font-weight: 600;
 }
 
-/* to separate container in ratio approx 2:1 */
+/* to separate container in ratio approx 2:1 when screen is big enough */
 .content_container .c1, .content_container .c3{
     width: 60%;
     float: left;
@@ -210,6 +207,7 @@
     width: 36%;
     float: right;
 }
+/* when screen is smaller, change layout... */
 @media(max-width: 858px){
     .content_container{
         text-align: left;
@@ -232,6 +230,9 @@
     font-style: italic;
     font-weight: bold;
 }
+.content_container .c3 .motto_words i{
+    font-style: normal;
+}
 
 /* the round button */
 .content_container .c3 .round_button{
@@ -247,6 +248,13 @@
     transition-duration: 0.2s;
 }
 
+/* add drop shadow when hovering on button */
+.content_container .c3 .round_button:hover {
+    background-color: #ED5565;
+    border-color: #ED5565; 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 /* the 'resume' round button */
 .content_container .c3 .resume_button{
     color: #6847E5;
@@ -255,19 +263,21 @@
     border: 2px solid #6847E5;
 }
 
-
-/* add drop shadow when hovering on button */
-.content_container .c3 .round_button:hover {
-    /* background-color: #ED5565;
-    border-color: #ED5565; */
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
 /* resume button- change to solid colour when hovering */
 .content_container .c3 .resume_button:hover {
     background-color: #6847E5;
     border-color: #6847E5;
     color:white;
+}
+
+/* the icons in c3 */
+.content_container .c3 .icon{
+    color: #6847E5;
+    font-size: 1.5em;
+    padding: 0 20px 0 20px;
+}
+.content_container .c3 .icon:hover{
+    color: #ED5565;
 }
 
 /* my img */

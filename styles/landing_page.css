@@ -81,7 +81,6 @@
     padding: 0 20px;
 }
 
-
 .navigation li:last-child{
     padding-right: 0;
 }
@@ -149,6 +148,10 @@
         height: auto;
         line-height: 30px;
         font-size: 20px;
+    }
+    .navigation li a:hover{
+        color: #ED5565;
+        opacity: 1;
     }
     /* button is clicked */
     #check_box:checked ~ .navigation{
