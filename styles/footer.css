@@ -1,0 +1,19 @@
+/* simple footer */
+footer{
+    position: relative;
+    margin-top: 80px;
+    padding: 8px 0 8px 0;
+    text-align: center;
+    vertical-align: center;
+    font-style: italic;
+    background-color: rgba(0,0,0,0.3);
+    color: rgba(255, 255, 255, 0.5);
+}
+footer li{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+footer li .icon{
+    color: rgba(255, 255, 255, 0.5);
+}
