@@ -1,7 +1,12 @@
 # <img alt="Logo" src="img/favicon.png" width="20"/> My personal website - albanr.com
 The first version of my personal website <a href="albanr.com">albanr.com</a>, built using HTML and CSS and hosted using [GitHub Pages](https://pages.github.com/).
 
-### 🎨 Colour Scheme
+![Landing Page GIF](img/landing_loop.gif "Landing Page GIF")
+
+### :pushpin: Note:
+The aim of this website is to serve as a personal portfolio/résumé. I decided to start developing it as a small project in which I could learn HTML and CSS and then put these skills into practice. I also took the opportunity to consider the UI and UX design aspects of it, to make a better overall experience. This repository is set to public to showcase this project; however, this doesn't mean the code can be freely copied and used, please see the [Copyright Notice](#grey_exclamation-copyright-notice) below.
+
+## :art: Colour Scheme 
 
 For the UI design enthusiasts:
 
@@ -14,5 +19,7 @@ For the UI design enthusiasts:
 | Red            | ![#ED5565](https://via.placeholder.com/10/ED5565?text=+) `#ED5565` |
 | Purple         | ![#6847E5](https://via.placeholder.com/10/6847E5?text=+) `#6847E5` |
 
----
-### &copy; Alba Navarro Rosales 2020
+
+## :grey_exclamation: Copyright Notice
+
+Copyright &copy; 2020 Alba Navarro Rosales. All rights reserved. Please do not copy or modify the design or software in this repository for any purpose other than with the express written permission of the author, neither claim it as your own. Do check [this](https://choosealicense.com/no-permission/) out, thanks! :)
