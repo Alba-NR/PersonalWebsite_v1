@@ -1,5 +1,5 @@
 # <img alt="Logo" src="img/favicon.png" width="20"/> My personal website - albanr.com
-The first version of my personal website <a href="albanr.com">albanr.com</a>, built using HTML and CSS and hosted using [GitHub Pages](https://pages.github.com/).
+The first version of my personal website [albanr.com](https://albanr.com), built using HTML and CSS and hosted using [GitHub Pages](https://pages.github.com/).
 
 ![Landing Page GIF](img/landing_loop.gif "Landing Page GIF")
 
