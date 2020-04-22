@@ -1,6 +1,7 @@
 /* simple footer */
 footer{
     position: relative;
+    bottom: 0;
     margin-top: 80px;
     padding: 8px 0 8px 0;
     text-align: center;
