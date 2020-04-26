@@ -134,7 +134,7 @@
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: rgb(39, 39, 39); /*rgba(0,0,0,0.5);*/
+        background: #F5F5F5;
         top: 80px;
         left: -100%; /* out of view, when button is clicked -> will 'slide in' */
         text-align: center;
@@ -148,6 +148,9 @@
         height: auto;
         line-height: 30px;
         font-size: 20px;
+    }
+    .navigation li a{
+        color: #6847E5;
     }
     .navigation li a:hover{
         color: #ED5565;
