@@ -7,9 +7,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --orange: #EA4D2C;
+    --purple: #6847E5;
+    --light-grey: #CCCCCC;
+    --dark-grey: #161616;
+}
+
 /* background */
 body{
-    background: linear-gradient(135deg, #ea4d2c, #6847E5);
+    background: linear-gradient(135deg, var(--orange), var(--purple));
     background-attachment: fixed;
     display: block;
     text-align: center;
@@ -22,7 +29,7 @@ body{
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #cccccc;
+    border-top: 1px solid var(--light-grey);
     margin: 1em 0;
     padding: 0;
 }
@@ -32,7 +39,7 @@ body{
     height: 1px;
     width: 60px;
     border: 0;
-    border-top: 1px solid #cccccc;
+    border-top: 1px solid var(--light-grey);
     margin: 1em 0;
     padding: 0;
 }
@@ -41,7 +48,7 @@ body{
 .content_container{
     position: relative;
     top: 80px;
-    color: #161616;
+    color: var(--dark-grey);
     background-color: white;
     border-radius: 15px;
     margin: 3% 5% 5% 5%;
@@ -54,7 +61,7 @@ body{
 }
 
 .content_container h2{
-    color: #6847E5;
+    color: var(--purple);
     font-size: 2.2em;
     margin-bottom: 20px;
 }
@@ -107,43 +114,43 @@ body{
     display: inline-block;
     color: white;
     border-radius: 25px;
-    background-color: #6847E5;
-    border: 2px solid #6847E5;
+    background-color: var(--purple);
+    border: 2px solid var(--purple);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2);
     transition-duration: 0.2s;
 }
 
 /* add drop shadow when hovering on button */
 .content_container .round_button:hover {
-    background-color: #ED5565;
-    border-color: #ED5565; 
+    background-color: var(--orange);
+    border-color: var(--orange); 
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     cursor: pointer;
 }
 
 /* the 'resume' round button */
 .content_container .resume_button{
-    color: #6847E5;
+    color: var(--purple);
     background: none;
     box-shadow: none;
-    border: 2px solid #6847E5;
+    border: 2px solid var(--purple);
 }
 
 /* resume button- change to solid colour when hovering */
 .content_container .resume_button:hover {
-    background-color: #6847E5;
-    border-color: #6847E5;
+    background-color: var(--purple);
+    border-color: var(--purple);
     color:white;
 }
 
 /* the icons in c3 */
 .content_container .c3 .icon{
-    color: #6847E5;
+    color: var(--purple);
     font-size: 1.5em;
     padding: 0 20px 0 20px;
 }
 .content_container .c3 .icon:hover{
-    color: #ED5565;
+    color: var(--orange);
 }
 
 /* my img */

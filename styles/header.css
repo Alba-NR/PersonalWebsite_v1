@@ -1,3 +1,9 @@
+:root {
+    --orange: #EA4D2C;
+    --purple: #6847E5;
+    --light-grey: #CCCCCC;
+}
+
 /* top header */
 .header{
     position: fixed;
@@ -33,9 +39,9 @@
     vertical-align: middle;
     font-style: italic;
     font-weight: 700;
-    color: #6847E5;
-    background: #6847E5;
-    background: linear-gradient(135deg, #ea4d2c, #6847E5);
+    color: var(--purple);
+    background: var(--purple);
+    background: linear-gradient(135deg, var(--orange), var(--purple));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -66,7 +72,7 @@
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    color: #6847E5;
+    color: var(--purple);
 }
 
 .navigation .active{
@@ -75,13 +81,13 @@
 
 .navigation li a:hover{
     cursor: pointer;
-    color: #ED5565;
+    color: var(--orange);
 }
 
 /* responsive nav bar... for smaller window size */
 .check_button{
     font-size: 30px;
-    color: #6847E5;
+    color: var(--purple);
     float: right;
     line-height: 80px;
     margin-right: 20px;
