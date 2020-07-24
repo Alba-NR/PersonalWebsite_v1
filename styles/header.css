@@ -1,7 +1,9 @@
 :root {
-    --orange: #EA4D2C;
+    --orange-red: #EA4D2C;
+    --soft-red: #ED5565;
     --purple: #6847E5;
     --light-grey: #CCCCCC;
+    --dark-grey: #161616;
 }
 
 /* top header */
@@ -41,7 +43,7 @@
     font-weight: 700;
     color: var(--purple);
     background: var(--purple);
-    background: linear-gradient(135deg, var(--orange), var(--purple));
+    background: linear-gradient(135deg, var(--orange-red), var(--purple));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -81,7 +83,7 @@
 
 .navigation li a:hover{
     cursor: pointer;
-    color: var(--orange);
+    color: var(--soft-red);
 }
 
 /* responsive nav bar... for smaller window size */

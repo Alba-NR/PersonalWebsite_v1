@@ -8,7 +8,8 @@
 }
 
 :root {
-    --orange: #EA4D2C;
+    --orange-red: #EA4D2C;
+    --soft-red: #ED5565;
     --purple: #6847E5;
     --light-grey: #CCCCCC;
     --dark-grey: #161616;
@@ -16,7 +17,7 @@
 
 /* background */
 body{
-    background: linear-gradient(135deg, var(--orange), var(--purple));
+    background: linear-gradient(135deg, var(--orange-red), var(--purple));
     background-attachment: fixed;
     display: block;
     text-align: center;
@@ -122,8 +123,8 @@ body{
 
 /* add drop shadow when hovering on button */
 .content_container .round_button:hover {
-    background-color: var(--orange);
-    border-color: var(--orange); 
+    background-color: var(--soft-red);
+    border-color: var(--soft-red); 
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     cursor: pointer;
 }
@@ -150,7 +151,7 @@ body{
     padding: 0 20px 0 20px;
 }
 .content_container .c3 .icon:hover{
-    color: var(--orange);
+    color: var(--orange-red);
 }
 
 /* my img */

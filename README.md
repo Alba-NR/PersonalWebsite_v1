@@ -15,8 +15,8 @@ For the UI design enthusiasts:
 | White          | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) `#FFFFFF` |
 | Light Grey     | ![#CCCCCC](https://via.placeholder.com/10/CCCCCC?text=+) `#CCCCCC` |
 | Dark Grey      | ![#161616](https://via.placeholder.com/10/161616?text=+) `#161616 `|
-| Orange         | ![#EA4D2C](https://via.placeholder.com/10/ea4d2c?text=+) `#EA4D2C` |
-| Red            | ![#ED5565](https://via.placeholder.com/10/ED5565?text=+) `#ED5565` |
+| Orange-Red     | ![#EA4D2C](https://via.placeholder.com/10/ea4d2c?text=+) `#EA4D2C` |
+| Soft Red       | ![#ED5565](https://via.placeholder.com/10/ED5565?text=+) `#ED5565` |
 | Purple         | ![#6847E5](https://via.placeholder.com/10/6847E5?text=+) `#6847E5` |
 
 
