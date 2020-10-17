@@ -81,7 +81,7 @@ body{
     float: right;
 }
 /* when screen is smaller, change layout... */
-@media(max-width: 858px){
+@media(max-width: 1080px){
     .content_container{
         text-align: left;
         padding: 5% 8% 5% 8%;
@@ -91,10 +91,22 @@ body{
         float: none;
     }
     .content_container .c2{
-        position: relative;
-        width: 40%;
+        width: 50%;
         float: right;
         margin: 20px;
+        text-align: center;
+    }
+}
+@media(max-width: 850px){
+    .content_container .c2{
+        position: relative;
+        width: 80%;
+        float: none;
+        margin: 30px 20px 20px 20px;
+        text-align: center;
+    }
+    .content_container .c2 img{
+        width: 60%;
     }
 }
 
