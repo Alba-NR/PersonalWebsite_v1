@@ -6,6 +6,8 @@ The first version of my personal website [albanr.com](https://albanr.com), built
 ### :pushpin: Note:
 The aim of this website is to serve as a personal portfolio/résumé. I decided to start developing it as a small project in which I could learn HTML and CSS and then put these skills into practice. I also took the opportunity to consider the UI and UX design aspects of it, to make a better overall experience. This repository is set to public to showcase this project; however, this doesn't mean the code can be freely copied and used, please see the [Copyright Notice](#grey_exclamation-copyright-notice) below.
 
+---
+
 ## :art: Colour Scheme 
 
 For the UI design enthusiasts:
@@ -19,6 +21,7 @@ For the UI design enthusiasts:
 | Soft Red       | ![#ED5565](https://via.placeholder.com/10/ED5565?text=+) `#ED5565` |
 | Purple         | ![#6847E5](https://via.placeholder.com/10/6847E5?text=+) `#6847E5` |
 
+---
 
 ## :grey_exclamation: Copyright Notice
 
