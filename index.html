@@ -42,7 +42,31 @@
                 </div>
             </div>
             <div class="motto">
-                <div class="motto_text"></div>
+                <div class="motto_text" id="motto_words"> </div>
+
+                <script>
+                    // word animation in JS (initial attempt 13/10/2021)
+                    // for compat with browsers other than chrome
+                    let start = Date.now(); // remember start time
+
+                    let timer = setInterval(function() {
+                        // time passed from start
+                        let timePassed = Date.now() - start;
+
+                        // draw the animation at the moment timePassed
+                        draw(timePassed);
+
+                    }, 1); // repaint anim frame every 1ms
+
+                    const mottoWords = ["learn", "explore", "create"];
+                    function draw(timePassed) {
+                        // convert ms -> s, make anim x2 longer, floor, then get mod 3 to use as index for word
+                        let ix = Math.floor(timePassed / 2000) % 3;
+                        // update text
+                        document.getElementById("motto_words").textContent = mottoWords[ix];
+                    }
+                </script>
+
                 <a href="aboutme.html"><div class="round_button">About Me</div></a>
             </div>
             

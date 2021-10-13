@@ -193,22 +193,6 @@
     margin: 20vh 0 8vh 0;
 }
 
-.motto_text::after{
-    content: "learn";
-    animation: change_word 6s linear infinite alternate;
-}
-@keyframes change_word{
-    0% {
-        content: "learn";
-    }
-    33% {
-        content: "explore";
-    }
-    66% {
-        content: "create";
-    }
-}
-
 /* the round button */
 .motto .round_button{
     width: auto;
