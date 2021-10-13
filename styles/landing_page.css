@@ -191,6 +191,7 @@
     vertical-align: middle;
     text-align: center;
     margin: 20vh 0 8vh 0;
+    content: "";
 }
 
 /* the round button */
